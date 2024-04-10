@@ -1,0 +1,121 @@
+{
+    "jobs": [
+        {
+            "job_id": "job1",
+            "subjects": [
+                "Computer Science",
+                "Software Engineering"
+            ],
+            "skills": [
+                "Python",
+                "Java"
+            ]
+        },
+        {
+            "job_id": "job2",
+            "subjects": [
+                "Data Science",
+                "Statistics"
+            ],
+            "skills": [
+                "Python",
+                "R",
+                "SQL"
+            ]
+        },
+        {
+            "job_id": "job3",
+            "subjects": [
+                "Electrical Engineering",
+                "Computer Engineering"
+            ],
+            "skills": [
+                "C",
+                "C++",
+                "Assembly"
+            ]
+        },
+        {
+            "job_id": "job4",
+            "subjects": [
+                "Mathematics",
+                "Data Science"
+            ],
+            "skills": [
+                "R",
+                "Matlab",
+                "Python"
+            ]
+        },
+        {
+            "job_id": "job5",
+            "subjects": [
+                "Physics",
+                "Computer Science"
+            ],
+            "skills": [
+                "Python",
+                "C++",
+                "Java"
+            ]
+        },
+        {
+            "job_id": "job6",
+            "subjects": [
+                "Mechanical Engineering",
+                "Electrical Engineering"
+            ],
+            "skills": [
+                "C++",
+                "AutoCAD"
+            ]
+        },
+        {
+            "job_id": "job7",
+            "subjects": [
+                "Finance",
+                "Economics"
+            ],
+            "skills": [
+                "Excel",
+                "Python",
+                "R"
+            ]
+        },
+        {
+            "job_id": "job8",
+            "subjects": [
+                "Software Engineering",
+                "Computer Science"
+            ],
+            "skills": [
+                "Java",
+                "C#",
+                "Python"
+            ]
+        },
+        {
+            "job_id": "job9",
+            "subjects": [
+                "Biology",
+                "Chemistry"
+            ],
+            "skills": [
+                "LabView",
+                "Python"
+            ]
+        },
+        {
+            "job_id": "job10",
+            "subjects": [
+                "Environmental Science",
+                "Chemistry"
+            ],
+            "skills": [
+                "GIS",
+                "R",
+                "Python"
+            ]
+        }
+    ]
+}
