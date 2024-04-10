@@ -51,3 +51,8 @@ def upload_to_local(directory_path, filename, data):
         json.dump(data, json_file)
 
     print(f"JSON data has been saved to {file_path}.")
+
+def load_data(file_path):
+    with open(file_path, 'r') as file:
+        jobs_data = json.load(file)
+    return jobs_data
