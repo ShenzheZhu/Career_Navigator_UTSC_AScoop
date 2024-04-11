@@ -1,1 +1,39 @@
-{"education": ["Computer Science"], "skills": ["Skills", "Python", "SQL", "Java", "C", "Node.js", "Cypher", "Bash", "Tensorflow", "Keras", "spaCy", "Scikit-learn", "XGBoost", "Matplotlib", "OpenCV", "FastAPI", "AWS", "Google Cloud", "Hugging Face", "FireBase", "Neo4j AuraDB", "Git", "MySQL", "CUDA", "OpenAPI", "Tableau", "PowerBI", "Markdown", "Latex", "Github", "Jupyter Notebook", "Anaconda"]}
+{
+  "education": [
+    "Computer Science"
+  ],
+  "skills": [
+    "Skills",
+    "Python",
+    "SQL",
+    "Java",
+    "C",
+    "Node.js",
+    "Cypher",
+    "Bash",
+    "Tensorflow",
+    "Keras",
+    "spaCy",
+    "Scikit-learn",
+    "XGBoost",
+    "Matplotlib",
+    "OpenCV",
+    "FastAPI",
+    "AWS",
+    "Google Cloud",
+    "Hugging Face",
+    "FireBase",
+    "Neo4j AuraDB",
+    "Git",
+    "MySQL",
+    "CUDA",
+    "OpenAPI",
+    "Tableau",
+    "PowerBI",
+    "Markdown",
+    "Latex",
+    "Github",
+    "Jupyter Notebook",
+    "Anaconda"
+  ]
+}

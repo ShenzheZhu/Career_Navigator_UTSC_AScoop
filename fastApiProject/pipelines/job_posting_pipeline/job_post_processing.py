@@ -2,6 +2,9 @@ from datetime import datetime
 import json
 import requests
 from resources import cloud_config
+from gemini_prompt_engineering import GeminiPrompting
+from utils import utils
+from resources import config
 
 
 class JobFetcher:
@@ -48,16 +51,27 @@ class JobFetcher:
             }
         return jobs_info
 
+    def process_descriptions(self, jobs_info):
+        for job_id, job_info in jobs_info.items():
+            description = job_info['description']
+            processed_result = GeminiPrompting(description).result_generation()
+            job_info['skills'] = processed_result.split(', ')
+            del job_info['description']
+        return jobs_info
+
     def process_job_post(self):
         self.fetch_jobs()
         valid_jobs = self.filter_valid_jobs()
         jobs_info = self.extract_job_info(valid_jobs)
-        print(json.dumps(jobs_info, indent=4, ensure_ascii=False))
+        # jobs_info = dict(list(jobs_info.items())[:10])
+        updated_jobs_info = self.process_descriptions(jobs_info)
+        utils.upload_to_local(config.LOCAL_JOB_KEYWORDS_BUCKET, config.LOCAL_JOB_KEYWORDS_NAME, updated_jobs_info)
+        return updated_jobs_info
 
 
-# 使用
 keyword = cloud_config.KEYWORD
 per_page = cloud_config.PER_PAGE
 token = cloud_config.TOKEN
 job_fetcher = JobFetcher(keyword, per_page, token)
-job_fetcher.process_job_post()
+final_result = job_fetcher.process_job_post()
+print(json.dumps(final_result, indent=4, ensure_ascii=False))
