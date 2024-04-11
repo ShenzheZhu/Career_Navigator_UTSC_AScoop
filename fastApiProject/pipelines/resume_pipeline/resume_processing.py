@@ -4,6 +4,7 @@ import json  # Library for JSON operations
 import re  # Regular expression library for text matching
 from utils import utils  # Importing utility functions
 from resources import config  # Importing configuration settings
+from resources import cloud_config
 
 class ResumeAnalyzer:
     def __init__(self, pdf_path, subjects_path):
