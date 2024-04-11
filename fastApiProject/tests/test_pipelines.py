@@ -13,6 +13,6 @@ def job_data_test():
 
 
 if __name__ == '__main__':
-    # resume_data_test()
-    job_data_test()
+    resume_data_test()
+    # job_data_test()
 
