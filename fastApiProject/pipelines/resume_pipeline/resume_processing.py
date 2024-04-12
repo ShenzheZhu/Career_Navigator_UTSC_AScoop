@@ -1,5 +1,4 @@
 import fitz  # PyMuPDF library for working with PDF files
-import spacy  # NLP library for processing text
 import json  # Library for JSON operations
 import re  # Regular expression library for text matching
 from utils import utils  # Importing utility functions
@@ -9,7 +8,6 @@ from resources import cloud_config
 class ResumeAnalyzer:
     def __init__(self, pdf_path, subjects_path):
         self.pdf_path = pdf_path  # Path to the PDF file
-        self.nlp = spacy.load("en_core_web_sm")  # Load the English language model for spacy
         self.education_keywords = self.load_keywords(subjects_path)  # Load education-related keywords
 
     def load_keywords(self, filepath):
@@ -56,7 +54,7 @@ class ResumeAnalyzer:
             if keyword in text_lower:
                 start = text_lower.find(keyword)
                 end = start + len(keyword)
-                education_entities.append(text[start:end])
+                education_entities.append(text[start:end].lower())
         return education_entities
 
     def analyze_skills(self, text):
@@ -72,7 +70,7 @@ class ResumeAnalyzer:
             else:
                 skill_part = block
 
-            skill_items = [item.strip() for item in re.split(r',|;', skill_part) if item.strip()]
+            skill_items = [item.strip().lower() for item in re.split(r',|;', skill_part) if item.strip()]
 
             skills.extend(skill_items)
 

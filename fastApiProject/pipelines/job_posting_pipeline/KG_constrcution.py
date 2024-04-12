@@ -53,8 +53,4 @@ class Neo4jConnector:
             self.add_job(job_id, subjects, skills)
 
 
-agent = Neo4jConnector(cloud_config.NEO4J_URI, cloud_config.NEO4J_USERNAME, cloud_config.NEO4J_PASSWORD)
-agent.reset_knowledge_graph()
-agent.create_KG(config.LOCAL_JOB_KEYWORDS_BUCKET, config.LOCAL_JOB_KEYWORDS_NAME)
-agent.close()
-print("KG construction finished")
+

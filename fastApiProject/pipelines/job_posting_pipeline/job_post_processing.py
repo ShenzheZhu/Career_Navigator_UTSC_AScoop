@@ -2,7 +2,7 @@ from datetime import datetime
 import json
 import requests
 from resources import cloud_config
-from gemini_prompt_engineering import GeminiPrompting
+from pipelines.job_posting_pipeline.gemini_prompt_engineering import GeminiPrompting
 from utils import utils
 from resources import config
 
@@ -40,10 +40,10 @@ class JobFetcher:
         jobs_info = {}
         for job in jobs:
             job_id = job['id']
-            class_level = [level['label'] for level in job.get('classLevel', []) if 'label' in level]
+            class_level = [level['label'].lower() for level in job.get('classLevel', []) if 'label' in level]
             if not class_level:
-                class_level = ['Not specified']
-            description = job.get('description', 'Not specified')
+                class_level = ['not specified']
+            description = job.get('description', 'not specified')
 
             jobs_info[job_id] = {
                 'classLevel': class_level,
@@ -55,7 +55,7 @@ class JobFetcher:
         for job_id, job_info in jobs_info.items():
             description = job_info['description']
             processed_result = GeminiPrompting(description).result_generation()
-            job_info['skills'] = processed_result.split(', ')
+            job_info['skills'] = [skill.lower().strip() for skill in processed_result.split(', ')]
             del job_info['description']
         return jobs_info
 
@@ -69,9 +69,4 @@ class JobFetcher:
         return updated_jobs_info
 
 
-keyword = cloud_config.KEYWORD
-per_page = cloud_config.PER_PAGE
-token = cloud_config.TOKEN
-job_fetcher = JobFetcher(keyword, per_page, token)
-final_result = job_fetcher.process_job_post()
-print(json.dumps(final_result, indent=4, ensure_ascii=False))
+
