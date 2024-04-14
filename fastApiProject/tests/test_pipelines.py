@@ -41,6 +41,6 @@ def recommender_algorithm_test():
 
 if __name__ == '__main__':
     # resume_data_test()
-    # job_post_process_test()
+    job_post_process_test()
     # job_data_test()
-    recommender_algorithm_test()
+    # recommender_algorithm_test()
