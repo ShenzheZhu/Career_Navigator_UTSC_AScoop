@@ -12,11 +12,18 @@
       "ecc - eng summer co-op"
     ],
     "skills": [
+      "software development",
       "c",
       "java",
-      "user interface design",
+      "design",
       "implementation",
-      "scripting",
+      "unit testing",
+      "security software",
+      "internal and user documentation",
+      "maintain daily build infrastructure",
+      "programming",
+      "user interface design",
+      "scripting language",
       "cryptography",
       "information security",
       "communication"
@@ -54,16 +61,19 @@
     "skills": [
       "documentation writing",
       "technical writing",
-      "embedded systems",
-      "c",
-      "operating systems",
-      "qnx",
-      "communication skills",
       "information architecture",
       "markup languages",
       "source version control",
       "problem reporting",
       "continuous integration",
+      "communication",
+      "c",
+      "c++",
+      "content discovery",
+      "user experience design",
+      "documentation toolchains",
+      "python",
+      "perl",
       "coding"
     ]
   },
@@ -83,9 +93,7 @@
       "c language",
       "scripting languages",
       "linux",
-      "windows development environments",
-      "operating system fundamentals",
-      "hardware development kits"
+      "windows"
     ]
   },
   "887f98d9a2735f808652cfcddc8bff49": {
@@ -102,17 +110,10 @@
     ],
     "skills": [
       "c programming",
-      "debugging",
       "problem-solving",
+      "debugging",
       "communication",
-      "teamwork",
-      "qnx",
-      "unix-like operating systems",
-      "software debug/analysis tools",
-      "understanding of software process architecture",
-      "understanding of operating system concepts",
-      "multi-processor systems",
-      "real-time systems"
+      "teamwork"
     ]
   },
   "b65b950a291406f75ea27f79ecaa573f": {
@@ -130,9 +131,11 @@
     "skills": [
       "c/c++",
       "python",
-      "rtos",
-      "software requirements",
-      "automation scripts"
+      "operating systems (rtos)",
+      "writing software requirements",
+      "software safety analysis",
+      "hazops",
+      "ftas"
     ]
   },
   "372bf5b91410e0b147aa4a67f8e1b290": {
@@ -147,15 +150,13 @@
       "asip - statistics"
     ],
     "skills": [
+      "software testing",
+      "test case design and execution",
       "debugging",
-      "attention to detail",
-      "testing tools & frameworks",
-      "communication",
-      "teamwork",
-      "project management",
-      "problem-solving",
-      "prioritization",
-      "learning"
+      "database analysis",
+      "automation testing",
+      "troubleshooting",
+      "communication"
     ]
   },
   "1864ea2d86727548cefea6054f5db515": {
@@ -171,12 +172,7 @@
       "ecc - eng summer co-op"
     ],
     "skills": [
-      "debugging",
-      "troubleshooting",
-      "communication",
-      "teamwork",
-      "attention to detail",
-      "automation testing"
+      "n/a"
     ]
   },
   "5faf3d0039257660fc91a88c0fe9eef8": {
@@ -192,14 +188,9 @@
       "ecc - eng summer co-op"
     ],
     "skills": [
-      "java",
-      "kotlin",
-      "android software development",
-      "communication",
-      "software best practices",
-      "secure software development",
-      "automated testing",
-      "testable software"
+      "programming",
+      "software development",
+      "communication"
     ]
   },
   "b72f5f20e47fb9a8c30712e9b588e075": {
@@ -237,16 +228,20 @@
       "python",
       "sql",
       "data analysis",
-      "etl",
-      "software development",
+      "etl scripts",
+      "agile software development",
       "cloud devops",
       "communication",
       "teamwork",
-      "organization",
+      "self-motivation",
+      "independence",
+      "microsoft sql server integration services",
+      "rest apis",
+      "tableau",
       "jira",
       "confluence",
       "gitlab",
-      "tableau",
+      "databricks",
       "aws"
     ]
   },
@@ -255,31 +250,21 @@
       "master of environmental science"
     ],
     "skills": [
-      "wildlife monitoring",
-      "vegetation management",
-      "wetlands management",
+      "wildlife surveys",
+      "vegetation monitoring",
+      "wetlands monitoring",
       "reclamation and remediation",
-      "team environment",
-      "environmental services",
-      "biophysical field work"
-    ]
-  },
-  "4362a702af450319e9d8bb84179f7662": {
-    "classLevel": [
-      "management",
-      "management - quant. fin. (double degree)",
-      "computer & mathematical sciences",
-      "computer science",
-      "mathematics",
-      "statistics",
-      "asip - computer science"
-    ],
-    "skills": [
-      "excel",
-      "financial analysis",
-      "bloomberg",
+      "project management",
+      "team collaboration",
+      "field research",
+      "wilderness navigation",
+      "remote work",
+      "data analysis",
+      "computer literacy",
+      "adaptability",
+      "problem-solving",
       "communication",
-      "problem-solving"
+      "ethics"
     ]
   },
   "a4ba8113f95e161b651917512b126c60": {
@@ -356,7 +341,37 @@
       "not specified"
     ],
     "skills": [
-      "n/a"
+      "policies and procedures",
+      "audits",
+      "health and safety programs",
+      "work from home",
+      "in-person meetings",
+      "customer needs",
+      "risk assessment",
+      "policy development",
+      "safety protocols",
+      "paperwork management"
+    ]
+  },
+  "b1ead7b7620cc2f1ed29ce1e724d7f84": {
+    "classLevel": [
+      "management",
+      "management - quant. fin. (double degree)",
+      "mathematics",
+      "statistics",
+      "life sciences",
+      "physical & environmental sciences",
+      "psychological and health sciences",
+      "mental health studies",
+      "humanities/social sciences",
+      "asip - industrial relations and human resources"
+    ],
+    "skills": [
+      "team player",
+      "interpersonal skills",
+      "communication",
+      "administrative",
+      "organizational"
     ]
   },
   "3b3be992b69363989cee06478dbafc97": {
@@ -372,13 +387,16 @@
       "asip - statistics"
     ],
     "skills": [
+      "technical support",
+      "customer service",
+      "problem-solving",
+      "troubleshooting",
+      "communication",
       "microsoft 365",
       "ms office",
       "ms outlook",
       "pc hardware",
       "peripherals",
-      "it",
-      "service desk",
       "c#",
       "sql",
       ".net mvc",
@@ -403,7 +421,10 @@
       "test-driven development (tdd)",
       "automated testing",
       "scrum",
-      "teamwork"
+      "creativity",
+      "innovation",
+      "teamwork",
+      "problem-solving"
     ]
   },
   "8d238cbe76c7d4d350f7d4a406bc307e": {
@@ -419,21 +440,12 @@
       "not specified"
     ],
     "skills": [
-      "fundraising",
-      "research",
-      "donor relations",
-      "data integrity",
+      "data entry",
+      "data analysis",
       "prospect research",
-      "microsoft office (word",
-      "excel",
-      "powerpoint)",
+      "project management",
       "communication",
-      "organization",
-      "time management",
-      "confidentiality",
-      "detail-oriented",
-      "adaptability",
-      "problem-solving"
+      "interpersonal skills"
     ]
   },
   "3a181429275a710bddd2fd2723ccb740": {
@@ -466,6 +478,40 @@
     ],
     "skills": [
       "n/a"
+    ]
+  },
+  "3c87461d59e826a7f1f1803ed60673de": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "7e732a98c4f35fa63f4567da70324190": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)",
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "data analysis",
+      "excel",
+      "powerpoint",
+      "time management",
+      "multitasking",
+      "communication"
     ]
   },
   "15aba8a078e3ff6dc0e8185d6b701086": {
@@ -516,7 +562,10 @@
       "asip - sociology"
     ],
     "skills": [
-      "n/a"
+      "microsoft office",
+      "organizational skills",
+      "communication skills",
+      "customer service skills"
     ]
   },
   "3a6e6eda5511a655e963763061326af8": {
@@ -560,7 +609,6 @@
       "asip - industrial relations and human resources"
     ],
     "skills": [
-      "business communications",
       "communication",
       "computer literacy",
       "detail-oriented",
@@ -587,12 +635,11 @@
     ],
     "skills": [
       "communication",
-      "customer service",
       "emotional intelligence",
       "digital literacy",
-      "sales",
       "problem-solving",
-      "compliance"
+      "team work",
+      "bilingualism"
     ]
   },
   "cd846fa278d35c156ab000bd623de6f1": {
@@ -625,38 +672,37 @@
       "management - quant. fin. (double degree)"
     ],
     "skills": [
+      "corporate banking",
       "financial analysis",
       "excel",
       "powerpoint",
-      "report writing",
+      "writing",
+      "analysis",
+      "summarizing",
+      "argumentation",
+      "client contact management",
+      "proactivity",
+      "reliability",
       "decision-making",
-      "problem-solving",
-      "teamwork",
+      "commitment",
       "communication",
-      "networking",
-      "stakeholder management",
-      "industry knowledge",
-      "presentation skills",
-      "research skills",
-      "microsoft office"
+      "active listening"
     ]
   },
-  "201a537376df6004562b1bc482b8d492": {
+  "4bc416909204fbce9f9f7350fdb763d3": {
     "classLevel": [
-      "management",
-      "management - quant. fin. (double degree)",
-      "computer & mathematical sciences",
-      "computer science",
-      "mathematics",
-      "statistics",
-      "asip - computer science",
-      "asip - data science",
-      "asip - mathematics",
-      "asip - statistics",
-      "ecc - eng summer co-op"
+      "management"
     ],
     "skills": [
-      "n/a"
+      "analytical thinking",
+      "problem-solving",
+      "financial modeling",
+      "business development",
+      "presentation preparation",
+      "ms word",
+      "ms access",
+      "ms excel",
+      "ms powerpoint"
     ]
   },
   "fd0c0c364712d65b964d8a9ffdf23211": {
@@ -665,10 +711,9 @@
     ],
     "skills": [
       "analytical skills",
-      "oral communication",
-      "written communication",
-      "initiative",
-      "teamwork"
+      "communication skills",
+      "team player",
+      "work in a fast-paced environment"
     ]
   },
   "76277c541dd4d6cb3fe1e63186d09205": {
@@ -735,12 +780,12 @@
       "asip - book and media studies"
     ],
     "skills": [
-      "multitasking",
-      "prioritizing",
       "administrative tasks",
       "microsoft office",
       "adobe acrobat pro",
-      "google suite"
+      "google suite",
+      "film",
+      "television"
     ]
   },
   "48f53363c0f70e535520b673033f7ddd": {
@@ -776,8 +821,11 @@
       "asip - economics"
     ],
     "skills": [
+      "communication",
       "interpersonal skills",
-      "communication"
+      "time management",
+      "work ethic",
+      "customer service"
     ]
   },
   "87d356c6a24c6773a714e33c9b8b02c9": {
@@ -788,12 +836,13 @@
       "asip - book and media studies"
     ],
     "skills": [
-      "image organization",
+      "office equipment",
       "image editing",
-      "customer service",
       "communication",
       "teamwork",
-      "safety procedures"
+      "organization",
+      "attention to detail",
+      "customer service"
     ]
   },
   "3177aad5b242c111a72f5ea5cd88519d": {
@@ -801,7 +850,12 @@
       "not specified"
     ],
     "skills": [
-      "n/a"
+      "customer service",
+      "cleaning",
+      "maintenance",
+      "communication",
+      "leadership",
+      "problem-solving"
     ]
   },
   "e98050f48ed53d0489cb471306f2f311": {
@@ -815,12 +869,18 @@
       "conservation & biodiversity"
     ],
     "skills": [
-      "data collection",
-      "data management",
-      "data processing",
-      "water quality sampling",
+      "surface water sampling",
       "equipment maintenance",
-      "field work"
+      "precipitation gauge maintenance",
+      "flow gauge maintenance",
+      "dam water level gauge maintenance",
+      "groundwater monitoring",
+      "data processing",
+      "data management",
+      "data entry",
+      "quality assurance",
+      "quality control",
+      "wiski database"
     ]
   },
   "2d63812df249f15c76172523a90f6b1a": {

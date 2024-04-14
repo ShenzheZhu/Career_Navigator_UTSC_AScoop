@@ -24,14 +24,14 @@ class Neo4jConnector:
 
         for subject in subjects:
             subject = subject.strip()
-            if subject != "Not specified":
+            if subject != "not specified":
                 tx.run("MERGE (sub:Subject {name: $subject}) "
                        "MERGE (j:Job {id: $job_id}) "
                        "MERGE (j)-[:IDEAL_FOR]->(sub)", subject=subject, job_id=job_id)
 
         for skill in skills:
             skill = skill.strip()
-            if skill != "N/A":
+            if skill != "n/a":
                 tx.run("MERGE (sk:Skill {name: $skill}) "
                        "MERGE (j:Job {id: $job_id}) "
                        "MERGE (j)-[:NEEDS_SKILL]->(sk)", skill=skill, job_id=job_id)
