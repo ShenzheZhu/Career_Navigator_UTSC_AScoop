@@ -109,7 +109,6 @@ def resume_education_prompt_combining(preprocessed_text):
 
 
 def resume_skill_prompt_combining(preprocessed_text):
-
     prompt = \
         f"""
     Below are several job descriptions followed by the extracted skills in a comma-separated list. Note that the skills should be single words or brief noun phrases that clearly represent a skill or ability.

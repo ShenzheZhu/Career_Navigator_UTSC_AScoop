@@ -51,6 +51,3 @@ class Neo4jConnector:
             subjects = job_details['classLevel']
             skills = job_details['skills']
             self.add_job(job_id, subjects, skills)
-
-
-

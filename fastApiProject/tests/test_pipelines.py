@@ -13,9 +13,11 @@ def resume_process_basic_test():
     analyze = ResumeAnalyzer(config.RESUME_PATH, config.SUBJECT_LIST)
     analyze.process_resume()
 
+
 def resume_process_gemini_test():
     analyze = ResumeAnalyzerGemini(config.RESUME_PATH)
     analyze.process_resume()
+
 
 def job_data_test():
     agent = Neo4jConnector(cloud_config.NEO4J_URI, cloud_config.NEO4J_USERNAME, cloud_config.NEO4J_PASSWORD)

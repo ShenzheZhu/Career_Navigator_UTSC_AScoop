@@ -24,6 +24,7 @@ options = Options()
 options.headless = False  # 如果不需要浏览界面，可以设置为True
 driver = webdriver.Chrome(options=options)
 
+
 def extract_skills(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     textarea = soup.find('textarea', {"name": "dnf_class_values[job][qualifications]"})
@@ -46,8 +47,6 @@ login_data = {
 response = session.post(login_url, data=login_data)
 
 Next = session.get(target_url)
-
-
 
 result = extract_skills(Next.text)
 

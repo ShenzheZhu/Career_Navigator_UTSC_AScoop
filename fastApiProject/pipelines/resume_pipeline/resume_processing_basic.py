@@ -5,6 +5,7 @@ from utils import utils  # Importing utility functions
 from resources import config  # Importing configuration settings
 from resources import cloud_config
 
+
 class ResumeAnalyzer:
     def __init__(self, pdf_path, subjects_path):
         self.pdf_path = pdf_path  # Path to the PDF file
@@ -54,7 +55,6 @@ class ResumeAnalyzer:
                 return keyword  # 返回匹配到的第一个关键词
         return None  # 如果没有找到任何关键词，返回None
 
-
     def analyze_skills(self, text):
         # Analyze and extract skills from the text
         skills = []
@@ -91,6 +91,6 @@ class ResumeAnalyzer:
                 "skills": skills_info
             }
             # Upload the extracted information to Google Cloud Storage
-            #utils.upload_to_gcs(config.GCS_RESUME_KEYWORDS_BUCKET_NAME,config.LOCAL_RESUME_KEYWORDS_NAME,output)
+            # utils.upload_to_gcs(config.GCS_RESUME_KEYWORDS_BUCKET_NAME,config.LOCAL_RESUME_KEYWORDS_NAME,output)
             utils.upload_to_local(config.LOCAL_RESUME_KEYWORDS_BUCKET, config.LOCAL_RESUME_KEYWORDS_NAME, output)
             return output

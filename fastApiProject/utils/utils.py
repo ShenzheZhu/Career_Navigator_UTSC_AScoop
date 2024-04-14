@@ -5,6 +5,7 @@ from google.cloud import storage
 import json
 from resources import config
 
+
 def upload_to_gcs(bucket_name, destination_blob_name, data):
     """
     Upload data to Google Cloud Storage.
@@ -54,11 +55,13 @@ def upload_to_local(directory_path, filename, data):
 
     print(f"JSON data has been saved to {file_path}.")
 
+
 def load_data(file_path):
     with open(file_path, 'r') as file:
         jobs_data = json.load(file)
     return jobs_data
 
-def clean_html(self,html_content):
+
+def clean_html(self, html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     return soup.get_text()

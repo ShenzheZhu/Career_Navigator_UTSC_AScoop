@@ -64,4 +64,5 @@ LIMIT 10
         print("\nRecommended Jobs:")
         recommendations = self.recommend_jobs(student_info)
         for recommendation in recommendations:
-            print(f"Job ID: {recommendation[0]}, Matched Skills: {recommendation[1]}, Skill Count: {recommendation[2]}, Subject Matched: {recommendation[3]}, Score: {recommendation[4]}")
+            print(
+                f"Job ID: {recommendation[0]}, Matched Skills: {recommendation[1]}, Skill Count: {recommendation[2]}, Subject Matched: {recommendation[3]}, Score: {recommendation[4]}")

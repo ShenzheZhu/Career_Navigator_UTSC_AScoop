@@ -34,7 +34,8 @@ class JobFetcher:
                 break
 
     def filter_valid_jobs(self):
-        return [job for job in self.all_jobs if job['expirationDate'] and datetime.strptime(job['expirationDate'], '%Y-%m-%d') >= datetime.now()]
+        return [job for job in self.all_jobs if
+                job['expirationDate'] and datetime.strptime(job['expirationDate'], '%Y-%m-%d') >= datetime.now()]
 
     def extract_job_info(self, jobs):
         jobs_info = {}
@@ -67,6 +68,3 @@ class JobFetcher:
         updated_jobs_info = self.process_descriptions(jobs_info)
         utils.upload_to_local(config.LOCAL_JOB_KEYWORDS_BUCKET, config.LOCAL_JOB_KEYWORDS_NAME, updated_jobs_info)
         return updated_jobs_info
-
-
-
