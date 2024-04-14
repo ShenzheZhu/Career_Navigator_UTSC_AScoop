@@ -1,9 +1,6 @@
 {
-  "education": [
-    "computer science"
-  ],
+  "education": "computer science",
   "skills": [
-    "skills",
     "python",
     "sql",
     "java",

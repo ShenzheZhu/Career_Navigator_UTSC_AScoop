@@ -47,15 +47,13 @@ class ResumeAnalyzer:
 
     def analyze_education(self, text):
         # Identify education entities in the text
-        education_entities = []
         text_lower = text.lower()
 
         for keyword in self.education_keywords:
             if keyword in text_lower:
-                start = text_lower.find(keyword)
-                end = start + len(keyword)
-                education_entities.append(text[start:end].lower())
-        return education_entities
+                return keyword  # 返回匹配到的第一个关键词
+        return None  # 如果没有找到任何关键词，返回None
+
 
     def analyze_skills(self, text):
         # Analyze and extract skills from the text

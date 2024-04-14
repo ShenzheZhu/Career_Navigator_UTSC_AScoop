@@ -2,7 +2,7 @@ from datetime import datetime
 import json
 import requests
 from resources import cloud_config
-from pipelines.job_posting_pipeline.gemini_prompt_engineering import GeminiPrompting
+from pipelines.job_posting_pipeline.gemini_prompt_engineering_job import GeminiPrompting
 from utils import utils
 from resources import config
 

@@ -1,4 +1,6 @@
 import os
+
+from bs4 import BeautifulSoup
 from google.cloud import storage
 import json
 from resources import config
@@ -56,3 +58,7 @@ def load_data(file_path):
     with open(file_path, 'r') as file:
         jobs_data = json.load(file)
     return jobs_data
+
+def clean_html(self,html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    return soup.get_text()

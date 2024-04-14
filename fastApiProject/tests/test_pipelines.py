@@ -4,14 +4,18 @@ import os
 from algorithm.algorithms import Neo4jRecommender
 from pipelines.job_posting_pipeline.KG_constrcution import Neo4jConnector
 from pipelines.job_posting_pipeline.job_post_processing import JobFetcher
-from pipelines.resume_pipeline.resume_processing import ResumeAnalyzer
+from pipelines.resume_pipeline.resume_processing_basic import ResumeAnalyzer
 from resources import config, cloud_config
+from pipelines.resume_pipeline.resume_processing_gemini import ResumeAnalyzerGemini
 
 
-def resume_data_test():
+def resume_process_basic_test():
     analyze = ResumeAnalyzer(config.RESUME_PATH, config.SUBJECT_LIST)
     analyze.process_resume()
 
+def resume_process_gemini_test():
+    analyze = ResumeAnalyzerGemini(config.RESUME_PATH)
+    analyze.process_resume()
 
 def job_data_test():
     agent = Neo4jConnector(cloud_config.NEO4J_URI, cloud_config.NEO4J_USERNAME, cloud_config.NEO4J_PASSWORD)
@@ -41,6 +45,7 @@ def recommender_algorithm_test():
 
 if __name__ == '__main__':
     # resume_data_test()
-    job_post_process_test()
+    resume_process_gemini_test()
+    # job_post_process_test()
     # job_data_test()
     # recommender_algorithm_test()

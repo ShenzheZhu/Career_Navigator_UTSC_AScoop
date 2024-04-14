@@ -1,1 +1,867 @@
-{"944bd233a74bdb0ee8b3fdfa369d1415": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["software development", "c", "java", "design", "implementation", "unit testing", "security software", "internal documentation", "user documentation", "build infrastructure", "programming", "user interface", "scripting", "python", "cryptography", "information security", "communication"]}, "c3dfb078729964c1cc8ed06ba1e49d06": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "psychological and health sciences", "psychology", "mental health studies", "humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "h-women studies (archived)", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "asip - book and media studies", "asip - industrial relations and human resources", "ecc - eng summer co-op"], "skills": ["technical writing", "documentation", "embedded systems", "c", "operating systems", "qnx", "information architecture", "markup languages", "source version control", "problem reporting", "continuous integration", "communication", "software readability"]}, "c4ee11e3317fd905c2ead68ea6fbfe8f": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["c", "scripting languages", "python", "linux", "windows", "operating systems", "hardware development kits", "raspberry pi", "beaglebone black"]}, "887f98d9a2735f808652cfcddc8bff49": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["c programming", "problem-solving", "communication", "teamwork", "qnx", "operating systems", "software debugging", "gdb", "real-time systems"]}, "b65b950a291406f75ea27f79ecaa573f": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["qnx", "rtos", "hypervisor", "software requirement specification (srs)", "c/c++", "python"]}, "372bf5b91410e0b147aa4a67f8e1b290": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics"], "skills": ["", "test cases", "investigating", "debugging", "automation", "databases", "debugging", "troubleshooting", "communication"]}, "1864ea2d86727548cefea6054f5db515": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["n/a"]}, "5faf3d0039257660fc91a88c0fe9eef8": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["java", "kotlin", "android software development", "communication"]}, "b72f5f20e47fb9a8c30712e9b588e075": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["objective-c", "swift", "software design", "communication", "user experience", "secure software development", "automated testing"]}, "837e5e8f305b681588e37f1433673f93": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["sql", "python", "etl", "data analytics", "agile software development", "cloud devops", "verbal communication", "written communication", "teamwork", "self-starter", "organization", "microsoft sql server integration services", "rest apis", "tableau", "jira", "confluence", "gitlab", "databricks", "aws"]}, "155833800e530435c1aefceae69a00d1": {"classLevel": ["master of environmental science"], "skills": ["wildlife", "vegetation", "wetlands", "reclamation", "remediation", "project management"]}, "a4ba8113f95e161b651917512b126c60": {"classLevel": ["asip - book and media studies", "asip - industrial relations and human resources", "asip - history", "asip - study of religion", "asip - political science", "asip - sociology"], "skills": ["n/a"]}, "12e9edf593952b3c91ad099481d87320": {"classLevel": ["ecc - eng summer co-op"], "skills": ["surveying", "traffic studies", "inspecting", "engineering", "drawings", "specifications", "estimates", "road construction", "field operations"]}, "ff95a9862c1f99741803744471395ef1": {"classLevel": ["master of environmental science"], "skills": ["n/a"]}, "74d5c62576e503bf2fad2637f239d1ff": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)"], "skills": ["n/a"]}, "a3de403cf011f804fa67ae56753cac7a": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)"], "skills": ["n/a"]}, "393aad8d3df339f5b6cf4fedd81f9553": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)"], "skills": ["n/a"]}, "fa5fae1870b2444bfb6ca4eef667bb24": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)"], "skills": ["n/a"]}, "f687f45fb18297689653dc70ebd484de": {"classLevel": ["not specified"], "skills": ["health and safety", "policy development", "procedure creation", "audit", "program building", "collaboration", "hands-on learning", "wsib excellence", "member meeting hosting", "member meeting delivery", "emergency preparedness", "safe working conditions", "guide development", "safety protocol implementation", "invoice management", "work order management", "support"]}, "b1ead7b7620cc2f1ed29ce1e724d7f84": {"classLevel": ["management", "management - quant. fin. (double degree)", "mathematics", "statistics", "life sciences", "physical & environmental sciences", "psychological and health sciences", "mental health studies", "humanities/social sciences", "asip - industrial relations and human resources"], "skills": ["teamwork", "communication", "detail-oriented", "administrative", "organizational"]}, "3b3be992b69363989cee06478dbafc97": {"classLevel": ["management - it", "computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics"], "skills": ["c#", "troubleshooting", "problem-solving", "pc hardware", "microsoft 365", "ms office", "ms outlook", "sql", ".net mvc", "javascript", "microsoft server operating systems", "customer service"]}, "6bd04f4799f84fe92ed892ef3b83f6bc": {"classLevel": ["computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics"], "skills": ["java", "relational databases", "test-driven development (tdd)", "automated testing", "scrum", "software development", "backend development"]}, "8d238cbe76c7d4d350f7d4a406bc307e": {"classLevel": ["not specified"], "skills": ["n/a"]}, "8990b1ff02570f5e7a5120fccbce7a4f": {"classLevel": ["not specified"], "skills": ["fundraising", "research", "donor management", "prospect research", "data analysis", "data integrity", "microsoft office", "communication", "teamwork", "time management", "attention to detail", "discretion", "raiser's edge"]}, "3a181429275a710bddd2fd2723ccb740": {"classLevel": ["humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "h-womens studies", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "asip - book and media studies", "asip - history", "asip - study of religion", "asip - political science", "asip - sociology"], "skills": ["n/a"]}, "6eb0e10386827992952463e99290bdc8": {"classLevel": ["not specified"], "skills": ["n/a"]}, "3c87461d59e826a7f1f1803ed60673de": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)"], "skills": ["n/a"]}, "7e732a98c4f35fa63f4567da70324190": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)", "computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["data analysis", "microsoft office proficiency", "powerpoint presentations", "time management", "communication (written and verbal)", "internships"]}, "15aba8a078e3ff6dc0e8185d6b701086": {"classLevel": ["h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "h-womens studies", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "asip - history", "asip - study of religion", "asip - political science", "asip - sociology"], "skills": ["customer service", "communication", "teamwork", "interpersonal skills"]}, "d9e7db8d7d89ad6ae2e3b71397c95e06": {"classLevel": ["humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "h-womens studies", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "asip - economics (arts)", "asip - economics (science)", "asip - book and media studies", "asip - industrial relations and human resources", "asip - history", "asip - study of religion", "asip - political science", "asip - sociology"], "skills": ["computer skills", "microsoft office", "organizational", "communication", "customer service"]}, "3a6e6eda5511a655e963763061326af8": {"classLevel": ["asip - history", "asip - study of religion", "asip - political science", "asip - sociology"], "skills": ["n/a"]}, "2069377c204f0bf2950d433d965b1acb": {"classLevel": ["master of environmental science"], "skills": ["curriculum development", "program assessment", "research", "program expansion", "resource development", "administrative support", "data analysis", "communication", "french proficiency"]}, "51a59cf4a6b6729689d9c864e48ebdca": {"classLevel": ["management", "management - quant. fin. (double degree)", "mathematics", "statistics", "life sciences", "psychological and health sciences", "mental health studies", "humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "asip - economics (arts)", "asip - economics (science)", "asip - book and media studies", "asip - industrial relations and human resources"], "skills": ["business communications", "communication", "computer literacy", "detail-oriented", "interpersonal relationships", "listening effectively", "personal development", "taking initiative"]}, "de00beb0d677cb3ea5c59632c34ad458": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)", "computer & mathematical sciences", "computer science", "mathematics", "statistics", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "ecc - eng summer co-op"], "skills": ["communication", "customer service", "financial advice", "problem-solving", "digital literacy", "compliance"]}, "cd846fa278d35c156ab000bd623de6f1": {"classLevel": ["psychological and health sciences", "psychology", "mental health studies", "humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "h-womens studies", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "asip - political science", "asip - sociology"], "skills": ["n/a"]}, "eb4b798cc57a4ec6b72e096d527f998f": {"classLevel": ["management", "management - quant. fin. (double degree)"], "skills": ["managing client relationships", "identifying industry trends", "tailoring solutions", "understanding client objectives", "establishing business relationships", "growing business", "identifying new opportunities", "prospecting clients", "summary analysis", "financial results analysis", "revenue composition", "market share analysis", "client pitch decks", "briefing materials preparation", "client research", "financial information updates", "ability to write reports", "analyze", "summarize", "argue", "strong understanding of bnp paribas products/solutions", "managing client contacts", "proactive", "reliable", "self-starter", "making sound decisions", "following through on commitments", "keeping others informed", "positive reputation", "effective written and oral communication", "active listening"]}, "4bc416909204fbce9f9f7350fdb763d3": {"classLevel": ["management"], "skills": ["analytical skills", "problem-solving", "financial modeling", "financial analysis", "pro-forma analysis", "business development", "client relationship management", "communication", "stakeholder management", "ms word", "ms access", "excel", "powerpoint"]}, "fd0c0c364712d65b964d8a9ffdf23211": {"classLevel": ["management"], "skills": ["n/a"]}, "76277c541dd4d6cb3fe1e63186d09205": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)", "computer & mathematical sciences", "computer science", "mathematics", "statistics", "life sciences", "cell & molecular biology/molecular biology & biotechnology", "neuroscience", "physical & environmental sciences", "biochemistry", "biological chemistry", "environmental science", "chemistry", "conservation & biodiversity", "psychological and health sciences", "psychology", "mental health studies", "humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "h-womens studies", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "asip - computer science", "asip - data science", "asip - mathematics", "asip - statistics", "asip - economics (arts)", "asip - economics (science)", "asip - physics", "asip - pharmaceutical chemistry", "asip - pharmacology & toxicology", "asip - cell & systems biology", "asip - chemistry", "asip - laboratory medicine & pathobiology", "asip - book and media studies", "asip - industrial relations and human resources", "asip - history", "asip - study of religion", "asip - political science", "asip - sociology", "ecc - eng summer co-op"], "skills": ["n/a"]}, "b41174371156493b61d07faece5942c6": {"classLevel": ["management", "management - it", "asip - book and media studies"], "skills": ["self-motivated", "prioritizing", "multitasking", "working with a varied portfolio", "administrative support", "scheduling", "mailing", "expense reports", "booking travel", "filing", "stocking office", "managing fleet of company vehicles", "updating websites", "tax credit applications", "contracting", "public funding applications", "financial management", "coordination of productions", "production insurance", "supporting production", "development", "and distribution activities", "working knowledge of film and television", "microsoft office", "adobe acrobat pro", "google suite"]}, "48f53363c0f70e535520b673033f7ddd": {"classLevel": ["master of environmental science"], "skills": ["communication", "problem-solving", "data analysis", "information synthesis", "community engagement", "equity-focused community engagement"]}, "e206ceed8c35c3b1080531bb1d089ac7": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)", "psychology", "mental health studies", "humanities/social sciences", "h-english", "h-french", "h-history", "h-linguistics", "h-philosophy", "h-psycholinguistics", "h-womens studies", "s-city studies", "s-health studies - policy", "s-health studies - population health", "s-public policy", "asip - economics (arts)", "asip - economics (science)", "asip - book and media studies", "asip - economics"], "skills": ["communication", "interpersonal skills"]}, "87d356c6a24c6773a714e33c9b8b02c9": {"classLevel": ["management", "management - it", "management - quant. fin. (double degree)", "asip - book and media studies"], "skills": ["n/a"]}, "3177aad5b242c111a72f5ea5cd88519d": {"classLevel": ["not specified"], "skills": ["n/a"]}, "e98050f48ed53d0489cb471306f2f311": {"classLevel": ["master of environmental science", "physical & environmental sciences", "biochemistry", "biological chemistry", "environmental science", "chemistry", "conservation & biodiversity"], "skills": ["surface water quality sampling", "equipment maintenance", "rain and stream gauge maintenance", "groundwater monitoring", "data processing", "data management", "flow monitoring", "precipitation monitoring", "level monitoring", "water quality analysis", "qa/qc (quality assurance and quality control)"]}}
+{
+  "944bd233a74bdb0ee8b3fdfa369d1415": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "c",
+      "java",
+      "user interface design",
+      "implementation",
+      "scripting language",
+      "cryptography",
+      "information security",
+      "communication"
+    ]
+  },
+  "c3dfb078729964c1cc8ed06ba1e49d06": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "psychological and health sciences",
+      "psychology",
+      "mental health studies",
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "h-women studies (archived)",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "asip - book and media studies",
+      "asip - industrial relations and human resources",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "technical writing",
+      "documentation",
+      "embedded systems",
+      "node.js",
+      "java",
+      "c",
+      "operating systems",
+      "qnx",
+      "information architecture",
+      "markup languages",
+      "source version control",
+      "problem reporting",
+      "continuous integration",
+      "communication",
+      "software readability",
+      "content discovery",
+      "search",
+      "user experience design",
+      "documentation toolchains",
+      "python",
+      "perl",
+      "testing"
+    ]
+  },
+  "c4ee11e3317fd905c2ead68ea6fbfe8f": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "c",
+      "scripting languages",
+      "linux",
+      "windows",
+      "hardware development kits",
+      "agile development methodology"
+    ]
+  },
+  "887f98d9a2735f808652cfcddc8bff49": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "c",
+      "problem-solving",
+      "debugging",
+      "communication",
+      "teamwork",
+      "qnx",
+      "bsd",
+      "linux",
+      "unix",
+      "software debug/analysis tools",
+      "operating system concepts",
+      "scheduling",
+      "concurrency",
+      "resource management",
+      "multi-cpu",
+      "multi-threaded architectures",
+      "real-time systems",
+      "operating system architectures"
+    ]
+  },
+  "b65b950a291406f75ea27f79ecaa573f": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "372bf5b91410e0b147aa4a67f8e1b290": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics"
+    ],
+    "skills": [
+      "test case definition",
+      "test case execution",
+      "debugging",
+      "troubleshooting",
+      "communication",
+      "teamwork",
+      "attention to detail"
+    ]
+  },
+  "1864ea2d86727548cefea6054f5db515": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "test case definition",
+      "test case execution",
+      "debugging",
+      "troubleshooting",
+      "communication",
+      "teamwork",
+      "attention to detail"
+    ]
+  },
+  "5faf3d0039257660fc91a88c0fe9eef8": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "java",
+      "kotlin",
+      "android software development",
+      "communication"
+    ]
+  },
+  "b72f5f20e47fb9a8c30712e9b588e075": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "objective-c",
+      "swift",
+      "ios software development",
+      "communication"
+    ]
+  },
+  "837e5e8f305b681588e37f1433673f93": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "python",
+      "sql",
+      "etl",
+      "data analysis",
+      "agile software development",
+      "cloud devops",
+      "communication",
+      "teamwork",
+      "self-starter",
+      "organization"
+    ]
+  },
+  "155833800e530435c1aefceae69a00d1": {
+    "classLevel": [
+      "master of environmental science"
+    ],
+    "skills": [
+      "wildlife monitoring",
+      "vegetation monitoring",
+      "wetlands monitoring",
+      "reclamation",
+      "remediation",
+      "project management",
+      "teamwork",
+      "field work",
+      "data analysis",
+      "report writing"
+    ]
+  },
+  "a4ba8113f95e161b651917512b126c60": {
+    "classLevel": [
+      "asip - book and media studies",
+      "asip - industrial relations and human resources",
+      "asip - history",
+      "asip - study of religion",
+      "asip - political science",
+      "asip - sociology"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "12e9edf593952b3c91ad099481d87320": {
+    "classLevel": [
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "ff95a9862c1f99741803744471395ef1": {
+    "classLevel": [
+      "master of environmental science"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "74d5c62576e503bf2fad2637f239d1ff": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "a3de403cf011f804fa67ae56753cac7a": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "393aad8d3df339f5b6cf4fedd81f9553": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "fa5fae1870b2444bfb6ca4eef667bb24": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "f687f45fb18297689653dc70ebd484de": {
+    "classLevel": [
+      "not specified"
+    ],
+    "skills": [
+      "health and safety",
+      "policy development",
+      "auditing",
+      "program development",
+      "wsib excellence",
+      "hands-on learning",
+      "collaboration",
+      "communication",
+      "emergency preparedness",
+      "safe working conditions",
+      "guide development",
+      "safety protocols",
+      "paperwork management",
+      "support"
+    ]
+  },
+  "b1ead7b7620cc2f1ed29ce1e724d7f84": {
+    "classLevel": [
+      "management",
+      "management - quant. fin. (double degree)",
+      "mathematics",
+      "statistics",
+      "life sciences",
+      "physical & environmental sciences",
+      "psychological and health sciences",
+      "mental health studies",
+      "humanities/social sciences",
+      "asip - industrial relations and human resources"
+    ],
+    "skills": [
+      "hris",
+      "recruitment",
+      "onboarding",
+      "employee events",
+      "employee rewards",
+      "employment law compliance",
+      "communication",
+      "administrative skills",
+      "organizational skills",
+      "teamwork",
+      "interpersonal skills"
+    ]
+  },
+  "3b3be992b69363989cee06478dbafc97": {
+    "classLevel": [
+      "management - it",
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics"
+    ],
+    "skills": [
+      "microsoft 365",
+      "ms office",
+      "ms outlook",
+      "pc hardware",
+      "peripherals",
+      "it",
+      "service desk",
+      "c#",
+      "sql",
+      ".net mvc",
+      "javascript",
+      "microsoft server operating systems"
+    ]
+  },
+  "6bd04f4799f84fe92ed892ef3b83f6bc": {
+    "classLevel": [
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics"
+    ],
+    "skills": [
+      "java",
+      "relational databases",
+      "test-driven development (tdd)",
+      "automated testing",
+      "scrum",
+      "creativity",
+      "innovation",
+      "teamwork"
+    ]
+  },
+  "8d238cbe76c7d4d350f7d4a406bc307e": {
+    "classLevel": [
+      "not specified"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "8990b1ff02570f5e7a5120fccbce7a4f": {
+    "classLevel": [
+      "not specified"
+    ],
+    "skills": [
+      "data entry",
+      "data analysis",
+      "data integrity",
+      "prospect research",
+      "donor outreach",
+      "fundraising",
+      "communication",
+      "teamwork",
+      "time management",
+      "prioritization",
+      "discretion",
+      "microsoft office"
+    ]
+  },
+  "3a181429275a710bddd2fd2723ccb740": {
+    "classLevel": [
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "h-womens studies",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "asip - book and media studies",
+      "asip - history",
+      "asip - study of religion",
+      "asip - political science",
+      "asip - sociology"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "6eb0e10386827992952463e99290bdc8": {
+    "classLevel": [
+      "not specified"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "3c87461d59e826a7f1f1803ed60673de": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "7e732a98c4f35fa63f4567da70324190": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)",
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "data analysis",
+      "excel",
+      "powerpoint",
+      "communication",
+      "time management",
+      "multi-tasking"
+    ]
+  },
+  "15aba8a078e3ff6dc0e8185d6b701086": {
+    "classLevel": [
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "h-womens studies",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "asip - history",
+      "asip - study of religion",
+      "asip - political science",
+      "asip - sociology"
+    ],
+    "skills": [
+      "communication",
+      "interpersonal skills",
+      "teamwork",
+      "basic computer skills"
+    ]
+  },
+  "d9e7db8d7d89ad6ae2e3b71397c95e06": {
+    "classLevel": [
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "h-womens studies",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "asip - economics (arts)",
+      "asip - economics (science)",
+      "asip - book and media studies",
+      "asip - industrial relations and human resources",
+      "asip - history",
+      "asip - study of religion",
+      "asip - political science",
+      "asip - sociology"
+    ],
+    "skills": [
+      "microsoft office",
+      "organizational",
+      "communication",
+      "customer service"
+    ]
+  },
+  "3a6e6eda5511a655e963763061326af8": {
+    "classLevel": [
+      "asip - history",
+      "asip - study of religion",
+      "asip - political science",
+      "asip - sociology"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "51a59cf4a6b6729689d9c864e48ebdca": {
+    "classLevel": [
+      "management",
+      "management - quant. fin. (double degree)",
+      "mathematics",
+      "statistics",
+      "life sciences",
+      "psychological and health sciences",
+      "mental health studies",
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "asip - economics (arts)",
+      "asip - economics (science)",
+      "asip - book and media studies",
+      "asip - industrial relations and human resources"
+    ],
+    "skills": [
+      "business communications",
+      "communication",
+      "computer literacy",
+      "detail-oriented",
+      "interpersonal relationships",
+      "listening effectively",
+      "personal development",
+      "taking initiative"
+    ]
+  },
+  "de00beb0d677cb3ea5c59632c34ad458": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)",
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "communication",
+      "customer service",
+      "problem-solving",
+      "digital literacy",
+      "compliance",
+      "financial advice"
+    ]
+  },
+  "cd846fa278d35c156ab000bd623de6f1": {
+    "classLevel": [
+      "psychological and health sciences",
+      "psychology",
+      "mental health studies",
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "h-womens studies",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "asip - political science",
+      "asip - sociology"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "eb4b798cc57a4ec6b72e096d527f998f": {
+    "classLevel": [
+      "management",
+      "management - quant. fin. (double degree)"
+    ],
+    "skills": [
+      "financial analysis",
+      "excel",
+      "powerpoint",
+      "report writing",
+      "analysis",
+      "summarization",
+      "argumentation",
+      "client management",
+      "industry trend identification",
+      "revenue composition analysis",
+      "market share analysis",
+      "client pitch deck preparation",
+      "briefing material preparation",
+      "client and industry research",
+      "project contribution",
+      "communication",
+      "active listening"
+    ]
+  },
+  "4bc416909204fbce9f9f7350fdb763d3": {
+    "classLevel": [
+      "management"
+    ],
+    "skills": [
+      "analytical skills",
+      "problem-solving",
+      "financial modeling",
+      "financial analysis",
+      "company research",
+      "industry analysis",
+      "client relationship management",
+      "deal management",
+      "presentation preparation",
+      "ms word",
+      "ms access",
+      "ms excel",
+      "ms powerpoint"
+    ]
+  },
+  "fd0c0c364712d65b964d8a9ffdf23211": {
+    "classLevel": [
+      "management"
+    ],
+    "skills": [
+      "analytical skills",
+      "communication skills",
+      "teamwork",
+      "initiative",
+      "problem-solving"
+    ]
+  },
+  "76277c541dd4d6cb3fe1e63186d09205": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)",
+      "computer & mathematical sciences",
+      "computer science",
+      "mathematics",
+      "statistics",
+      "life sciences",
+      "cell & molecular biology/molecular biology & biotechnology",
+      "neuroscience",
+      "physical & environmental sciences",
+      "biochemistry",
+      "biological chemistry",
+      "environmental science",
+      "chemistry",
+      "conservation & biodiversity",
+      "psychological and health sciences",
+      "psychology",
+      "mental health studies",
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "h-womens studies",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "asip - computer science",
+      "asip - data science",
+      "asip - mathematics",
+      "asip - statistics",
+      "asip - economics (arts)",
+      "asip - economics (science)",
+      "asip - physics",
+      "asip - pharmaceutical chemistry",
+      "asip - pharmacology & toxicology",
+      "asip - cell & systems biology",
+      "asip - chemistry",
+      "asip - laboratory medicine & pathobiology",
+      "asip - book and media studies",
+      "asip - industrial relations and human resources",
+      "asip - history",
+      "asip - study of religion",
+      "asip - political science",
+      "asip - sociology",
+      "ecc - eng summer co-op"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "b41174371156493b61d07faece5942c6": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "asip - book and media studies"
+    ],
+    "skills": [
+      "multitasking",
+      "prioritization",
+      "administrative tasks",
+      "microsoft office",
+      "adobe acrobat pro",
+      "google suite"
+    ]
+  },
+  "e206ceed8c35c3b1080531bb1d089ac7": {
+    "classLevel": [
+      "management",
+      "management - it",
+      "management - quant. fin. (double degree)",
+      "psychology",
+      "mental health studies",
+      "humanities/social sciences",
+      "h-english",
+      "h-french",
+      "h-history",
+      "h-linguistics",
+      "h-philosophy",
+      "h-psycholinguistics",
+      "h-womens studies",
+      "s-city studies",
+      "s-health studies - policy",
+      "s-health studies - population health",
+      "s-public policy",
+      "asip - economics (arts)",
+      "asip - economics (science)",
+      "asip - book and media studies",
+      "asip - economics"
+    ],
+    "skills": [
+      "communication",
+      "interpersonal skills"
+    ]
+  },
+  "3177aad5b242c111a72f5ea5cd88519d": {
+    "classLevel": [
+      "not specified"
+    ],
+    "skills": [
+      "n/a"
+    ]
+  },
+  "e98050f48ed53d0489cb471306f2f311": {
+    "classLevel": [
+      "master of environmental science",
+      "physical & environmental sciences",
+      "biochemistry",
+      "biological chemistry",
+      "environmental science",
+      "chemistry",
+      "conservation & biodiversity"
+    ],
+    "skills": [
+      "surface water quality sampling",
+      "equipment maintenance",
+      "rain and stream gauge equipment maintenance",
+      "groundwater monitoring",
+      "data processing",
+      "data management",
+      "flow analysis",
+      "precipitation analysis",
+      "level analysis",
+      "qa/qc",
+      "data entry"
+    ]
+  }
+}
