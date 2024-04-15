@@ -1,5 +1,5 @@
 import os
-
+import re
 from bs4 import BeautifulSoup
 from google.cloud import storage
 import json
@@ -62,6 +62,10 @@ def load_data(file_path):
     return jobs_data
 
 
-def clean_html(self, html_content):
+def clean_html(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     return soup.get_text()
+
+def sanitize_for_neo4j_regex(input_text):
+    sanitized_text = re.sub('[^\w\s#+-]', '', input_text)
+    return sanitized_text

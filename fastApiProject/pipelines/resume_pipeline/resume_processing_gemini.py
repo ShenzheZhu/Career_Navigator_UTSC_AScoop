@@ -5,10 +5,11 @@
 # @FileName: resume_processing_gemini.py
 # @Software: PyCharm
 import fitz
-from gemini_prompt_engineering_resume import GeminiPrompting
+from pipelines.resume_pipeline.gemini_prompt_engineering_resume import GeminiPrompting
 from resources import config
 from utils import utils
 from resources import prompt_config
+from utils import utils
 
 
 class ResumeAnalyzerGemini:
@@ -38,9 +39,13 @@ class ResumeAnalyzerGemini:
         education_info = self.analyze_education(prompt_config.resume_education_prompt_combining(resume_text))
         skills_info = self.analyze_skills(prompt_config.resume_skill_prompt_combining(resume_text))
 
+        cleaned_education_info = utils.sanitize_for_neo4j_regex(education_info)
+        # 清洗skills_info中的每一个元素
+        cleaned_skills_info = [utils.sanitize_for_neo4j_regex(skill) for skill in skills_info]
+
         output = {
-            "education": education_info,
-            "skills": skills_info
+            "education": cleaned_education_info,
+            "skills": cleaned_skills_info
         }
         utils.upload_to_local(config.LOCAL_RESUME_KEYWORDS_BUCKET, config.LOCAL_RESUME_KEYWORDS_NAME, output)
         return output

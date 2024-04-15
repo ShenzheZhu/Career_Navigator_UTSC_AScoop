@@ -10,12 +10,12 @@ from pipelines.resume_pipeline.resume_processing_gemini import ResumeAnalyzerGem
 
 
 def resume_process_basic_test():
-    analyze = ResumeAnalyzer(config.RESUME_PATH, config.SUBJECT_LIST)
+    analyze = ResumeAnalyzer(config.RESUME_PATH_1, config.SUBJECT_LIST)
     analyze.process_resume()
 
 
 def resume_process_gemini_test():
-    analyze = ResumeAnalyzerGemini(config.RESUME_PATH)
+    analyze = ResumeAnalyzerGemini(config.RESUME_PATH_1)
     analyze.process_resume()
 
 
@@ -46,8 +46,9 @@ def recommender_algorithm_test():
 
 
 if __name__ == '__main__':
+    pass
     # resume_data_test()
-    resume_process_gemini_test()
+    # resume_process_gemini_test()
     # job_post_process_test()
     # job_data_test()
     # recommender_algorithm_test()

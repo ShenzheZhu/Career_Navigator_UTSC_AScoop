@@ -55,8 +55,6 @@
       "technical writing",
       "documentation",
       "embedded systems",
-      "node.js",
-      "java",
       "c",
       "operating systems",
       "qnx",
@@ -72,8 +70,7 @@
       "user experience design",
       "documentation toolchains",
       "python",
-      "perl",
-      "testing"
+      "perl"
     ]
   },
   "c4ee11e3317fd905c2ead68ea6fbfe8f": {
@@ -143,7 +140,10 @@
       "ecc - eng summer co-op"
     ],
     "skills": [
-      "n/a"
+      "rtos",
+      "srs",
+      "c/c++",
+      "python"
     ]
   },
   "372bf5b91410e0b147aa4a67f8e1b290": {
@@ -158,13 +158,14 @@
       "asip - statistics"
     ],
     "skills": [
-      "test case definition",
-      "test case execution",
+      "software testing",
+      "test case design",
       "debugging",
-      "troubleshooting",
+      "automation testing",
       "communication",
       "teamwork",
-      "attention to detail"
+      "attention to detail",
+      "problem-solving"
     ]
   },
   "1864ea2d86727548cefea6054f5db515": {
@@ -205,7 +206,13 @@
       "java",
       "kotlin",
       "android software development",
-      "communication"
+      "communication",
+      "software design",
+      "software implementation",
+      "software testing",
+      "user experience",
+      "software security",
+      "automated testing"
     ]
   },
   "b72f5f20e47fb9a8c30712e9b588e075": {
@@ -266,7 +273,8 @@
       "teamwork",
       "field work",
       "data analysis",
-      "report writing"
+      "report writing",
+      "communication"
     ]
   },
   "a4ba8113f95e161b651917512b126c60": {
@@ -347,8 +355,9 @@
       "policy development",
       "auditing",
       "program development",
-      "wsib excellence",
+      "wsib excellence program",
       "hands-on learning",
+      "work from home",
       "collaboration",
       "communication",
       "emergency preparedness",
@@ -378,7 +387,7 @@
       "onboarding",
       "employee events",
       "employee rewards",
-      "employment law compliance",
+      "employment law",
       "communication",
       "administrative skills",
       "organizational skills",
@@ -399,13 +408,16 @@
       "asip - statistics"
     ],
     "skills": [
+      "technical support",
+      "troubleshooting",
+      "problem-solving",
+      "research",
+      "communication",
       "microsoft 365",
       "ms office",
       "ms outlook",
       "pc hardware",
       "peripherals",
-      "it",
-      "service desk",
       "c#",
       "sql",
       ".net mvc",
@@ -425,14 +437,7 @@
       "asip - statistics"
     ],
     "skills": [
-      "java",
-      "relational databases",
-      "test-driven development (tdd)",
-      "automated testing",
-      "scrum",
-      "creativity",
-      "innovation",
-      "teamwork"
+      "n/a"
     ]
   },
   "8d238cbe76c7d4d350f7d4a406bc307e": {
@@ -689,14 +694,16 @@
       "argumentation",
       "client management",
       "industry trend identification",
-      "revenue composition analysis",
+      "revenue analysis",
       "market share analysis",
-      "client pitch deck preparation",
-      "briefing material preparation",
-      "client and industry research",
-      "project contribution",
+      "client pitch preparation",
+      "research",
+      "active listening",
       "communication",
-      "active listening"
+      "decision-making",
+      "self-starting",
+      "reliability",
+      "proactivity"
     ]
   },
   "4bc416909204fbce9f9f7350fdb763d3": {
