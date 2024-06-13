@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Navigator Trial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/assets/css/main.css" />
+    <style>
+        body {
+            background: #4896e3;
+        }
+        h1 {
+        font-size: 35px; /* 调整字体大小 */
+        margin-bottom: 20px; /* 添加一些底部外边距 */
+        }
+        p {
+        font-size: 25px; /* Setting the font size for the results */
+        }
+        .logo-link {
+            position: absolute;
+            top: 2vh;
+            left: 2vh;
+            z-index: 1000;
+            outline: none;  /* 移除焦点时的外框线 */
+            text-decoration: none;
+            border: none;  /* 确保没有边框 */
+            display: block;
+        }
+        .logo-link img {
+            height: 90px;
+            display: block;
+        }
+        .inner {
+        margin-top: 16vh;  /* 增加顶部边距以将内容向下推移 */
+    }
+    </style>
+</head>
+
+<body class="is-preload">
+     <a href="/" class="logo-link">
+        <img src="../static/images/logo.png" alt="Career Navigator Logo">
+    </a>
+    <div id="loading-overlay" style="display: none;">
+    <div class="loader"></div>
+    </div>
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">Career Navigator</h1>
+            <p>Upload resume and AI will match positions for you</p>
+            <ul class="actions">
+                <li>
+                    <input type="file" id="file-upload" accept=".pdf" style="display: none;" />
+                    <label for="file-upload" class="button primary">
+                        Upload Resume
+                    </label>
+                     <button type="submit" style="display: none;" id="submit-button">Submit</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="results-container" style="display: none;"></div>
+
+    <!-- Scripts -->
+    <script src="../static/assets/js/jquery.min.js"></script>
+    <script src="../static/assets/js/browser.min.js"></script>
+    <script src="../static/assets/js/breakpoints.min.js"></script>
+    <script src="../static/assets/js/util.js"></script>
+    <script src="../static/assets/js/main.js"></script>
+    <script src="../static/assets/js/loading.js"></script>
+</script>
+
+</body>
+</html>

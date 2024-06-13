@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Page</title>
+    <link rel="stylesheet" href="../static/assets/css/main.css"/>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #4896e3;
+        }
+
+        #result-container {
+            width: 80%; /* 或者其他根据你页面设计的宽度 */
+            margin: 20px auto; /* 这将自动调整左右边距来居中容器 */
+            text-align: center; /* 确保内部文本内容居中，如果需要的话 */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 这将确保所有子元素都在容器中居中 */
+        }
+
+        h1 {
+           font-size: 48px; /* 增大字体尺寸 */
+    color: white; /* 白色字体 */
+    margin-top: 30px; /* 适当增加顶部边距 */
+    margin-bottom: 20px; /* 保持较大的底部边距 */
+    text-align: center;
+    width: 100%; /* 确保标题可以占满容器宽度 */
+        }
+        #back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: white;
+            color: #4896e3;
+            border: 2px solid #357edd;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+            line-height: normal;
+        }
+
+        #back-button:hover {
+            background-color: #f0f0f0;
+            color: #285ea8;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            list-style-type: none; /* 移除列表点 */
+        }
+
+        .pagination li {
+            margin: 5px;
+            cursor: pointer;
+            padding: 5px 10px;
+            background-color: #357edd;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .pagination li:hover {
+            background-color: #285ea8;
+        }
+
+        .pagination .active {
+            background-color: #4896e3;
+            pointer-events: none; /* 禁止点击当前页 */
+        }
+
+        .result-box {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center; /* 确保所有子元素垂直居中 */
+    justify-content: space-between;
+}
+
+.result-box .left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1; /* 允许左侧内容区域根据内容自动扩展 */
+}
+.result-box .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 水平居中对齐 */
+    justify-content: center; /* 垂直居中对齐 */
+    min-width: 100px; /* 确保有足够的空间显示分数 */
+}
+
+.result-box .score-label {
+    font-size: 24px; /* 突出显示得分的字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    align-items: center; /* 使得得分和匹配程度在垂直方向上对齐 */
+}
+
+.result-box .score-value {
+    font-size: 50px; /* 加大分数的字体大小 */
+    color: #4896e3; /* 使用主题颜色强调分数 */
+
+}
+.result-box .match-level {
+    padding: 20px 10px; /* 增加上下内边距，左右内边距可以相对较小 */
+    min-width: 100px; /* 维持最小宽度 */
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px; /* 根据需要调整字体大小 */
+    display: flex;
+    align-items: center; /* 保持文本垂直居中 */
+    justify-content: center; /* 保持文本水平居中 */
+    align-self: center; /* 在交叉轴上居中 */
+}
+
+.result-box .low {
+    background-color: #f44336; /* Red for Low */
+}
+
+.result-box .mid {
+    background-color: #ff9800; /* Orange for Mid */
+}
+
+.result-box .high {
+    background-color: #4caf50; /* Green for High */
+}
+    </style>
+</head>
+<body>
+<button id="back-button" onclick="goBack()">Go Back</button>
+<h1>Following Jobs Might Fit You</h1>
+<div id="result-container"></div>
+<ul class="pagination"></ul>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+
+    window.onload = function () {
+        var results = JSON.parse(localStorage.getItem('results'));
+        var resultsContainer = document.getElementById('result-container');
+        var paginationContainer = document.querySelector('.pagination');
+        var currentPage = 1;
+        var resultsPerPage = 4;
+
+        function renderResults(page) {
+            resultsContainer.innerHTML = '';
+            var start = (page - 1) * resultsPerPage;
+            var end = start + resultsPerPage;
+            var paginatedItems = results.slice(start, end);
+            paginatedItems.forEach(result => {
+                var div = document.createElement('div');
+                var matchLevel = getMatchLevel(result.score);
+                div.className = 'result-box';
+                div.innerHTML = `
+                    <div class="left-content">
+                    <strong>Job Name:</strong> ${result.job_name}<br>
+                    <strong>ID:</strong> ${result.job_number}<br>
+                    <strong>Matched Skills:</strong> ${result.matched_skills.join(', ')}<br>
+                    <strong>Subject Matched:</strong> ${result.subject_matched ? 'Yes' : 'No'}
+                </div>
+                <div class="right-content">
+                    <div class="score-label">Score</div>
+                    <div class="score-value">${result.score}</div>
+                </div>
+                <div class="match-level ${matchLevel.toLowerCase()}">
+                ${matchLevel}
+                </div>
+                `;
+                resultsContainer.appendChild(div);
+            });
+        }
+
+        function renderPagination() {
+            paginationContainer.innerHTML = '';
+            var pageCount = Math.ceil(results.length / resultsPerPage);
+            for (let i = 1; i <= pageCount; i++) {
+                var li = document.createElement('li');
+                li.textContent = i;
+                if (i === currentPage) {
+                    li.classList.add('active');
+                }
+                li.addEventListener('click', function () {
+                    currentPage = i;
+                    renderResults(currentPage);
+                    renderPagination();
+                });
+                paginationContainer.appendChild(li);
+            }
+        }
+        function getMatchLevel(score) {
+        if (score <= 20) {
+        return 'Low';
+        } else if (score > 20 && score < 40) {
+        return 'Mid';
+        } else if (score >= 40) {
+        return 'High';
+        }
+}
+
+        renderResults(currentPage);
+        renderPagination();
+    };
+</script>
+</body>
+</html>
